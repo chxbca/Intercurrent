@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="55" prefWidth="331.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="sample.Controller">
+    <Button layoutX="9.0" layoutY="10.0" onMouseClicked="#useStart" prefHeight="36" prefWidth="70.0" text="开始"/>
+    <Button layoutX="90.0" layoutY="10.0" onMouseClicked="#useContinue" prefHeight="36" prefWidth="70.0" text="继续"/>
+    <Button layoutX="171.0" layoutY="10.0" onMouseClicked="#usePause" prefHeight="36" prefWidth="70.0" text="暂停"/>
+    <Button layoutX="252.0" layoutY="10.0" onMouseClicked="#useEnd" prefHeight="36" prefWidth="70.0" text="结束"/>
+</Pane>

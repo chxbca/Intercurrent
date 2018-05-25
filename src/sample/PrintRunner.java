@@ -42,9 +42,7 @@ class PrintRunner {
     }
 
     static void setPause(boolean flag) {
-        synchronized (PrintRunner.class) {
-            pause = flag;
-        }
+        pause = flag;
     }
 
     static void destroy() {
